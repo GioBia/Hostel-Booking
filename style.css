@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1, h2 { 
+    text-align: center; 
+}
+
+label { 
+    display: block; 
+    margin-top: 10px; 
+}
+
+input, select { 
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+}
+
+button { 
+    margin-top: 25px; 
+    margin-left: 15%;
+    padding: 13px; 
+    width: 70%; 
+    text-align: center;
+    background: #0078D4; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background: #005A9E;
+}
+
+.success { 
+    color: green; 
+    margin-top: 15px; 
+}
+
+.error { 
+    color: red; 
+    margin-top: 15px; 
+}
